@@ -123,7 +123,11 @@ address {
     }
 
     .intro-message > h1 {
-        font-size: 3em;
+        font-size: 2em;
+    }
+
+    .intro-message > h3 {
+        font-size: 1em;
     }
 
     ul.intro-social-buttons > li {
