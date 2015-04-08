@@ -3,6 +3,10 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+ 
+@import url(//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
 
 body,
 html {
@@ -10,15 +14,55 @@ html {
     height: 100%;
 }
 
-body,
 h1,
-h2,
+h2 {
+    font-family: "Open Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+body,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 600;
+}
+
+p,
+address {
+    font-family: "Georgia",serif;
     font-weight: 700;
+}
+
+.navbar, .navbar-default {
+    height: 120px;
+    background: #FFFFFF;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    width: 300px;
+    height: 80px;
+}
+
+.navbar-nav {
+    padding-top: 40px;
+}
+
+#navbar {
+    background-color: #FFFFFF;
+}
+
+.brand {
+    background: url(../img/logo.png) no-repeat center center;
+    width: 300px;
+    height: 80px;
+    background-size: 100%;
+    position: absolute;
+    margin-bottom: 20px;
+    padding-right: 20px;
 }
 
 .lead {
@@ -27,11 +71,9 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: url(../img/hathaway1.jpg) no-repeat center center;
     background-size: cover;
 }
 
