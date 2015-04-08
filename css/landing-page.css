@@ -47,20 +47,13 @@ address {
     margin-top: 0;
 }
 
-
 #navbar {
     background-color: #FFFFFF;
 }
 
 .navbar-brand img {
-    height: 75%;
+    height: 65%;
     position: absolute;
-}
-
-@media (max-width: 767px) {
-    .navbar-brand img {
-        height: 50%;
-    }
 }
 
 .navbar-nav, .navbar-nav li, .navbar-nav li a {
@@ -108,6 +101,23 @@ address {
 }
 
 @media(max-width:767px) {
+    .navbar-brand img {
+        height: 55%;
+    }
+
+    .navbar,
+    .navbar-default,
+    .navbar-nav,
+    .navbar-nav li,
+    .navbar-nav li a {
+        height: 80px;
+        line-height: 80px;
+    }
+
+    .navbar-toggle {
+        margin-top: -20px;
+    }
+
     .intro-message {
         padding-bottom: 15%;
     }
