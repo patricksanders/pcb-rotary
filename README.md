@@ -1,26 +1,23 @@
-# Landing Page Jekyll theme
-
+# Rotary Jekyll theme
+Based on [Landing Page Jekyll theme](https://github.com/swcool/landing-page-theme)
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)
 
 ## How to use
- - Place a image in `/img/services/`
- - Create posts to display your services. Use the follow as an example:
+ - Place a image in `/img/sections/`
+ - Create posts to display your sections. Use the following as an example:
 
 ```txt
 ---
 layout: default
 img: ipad.png
-category: Services
-title: The service title
-description: The description of this service
+category: Sections
+title: The section title
+description: Text for the section
 ---
 ```
 
 ## Demo
 View this jekyll theme in action [here](https://swcool.github.io/landing-page-theme)
-
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/swcool/landing-page-theme/master/img/screenshot.png)
 
 ===
 

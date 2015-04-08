@@ -16,7 +16,7 @@
                     {% if post.locations %}
                         <img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?{% for location in post.locations %}{% if forloop.first %}center={{location}}&markers=color:red%7C{{location}}{% else %}&markers=color:red%7C{{location}}{% endif %}{% endfor %}&zoom={% if post.zoom %}{{post.zoom}}{% else %}13{% endif %}&size=600x400&scale=1&sensor=false&visual_refresh=true" alt="">
                     {% else %}
-                        <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                        <img class="img-responsive" src="img/sections/{{ post.img }}" alt="">
                     {% endif %}
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     {{ post.description }}
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                  <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
+                  <img class="img-responsive" src="img/sections/{{ post.img }}" alt="">
                 </div>
             </div>
 
